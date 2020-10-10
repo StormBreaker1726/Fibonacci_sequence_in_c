@@ -5,7 +5,7 @@
 
 
 #include <stdio.h>
-int cal_fib(int numero_de_parada);
+void cal_fib(int numero_de_parada);
 int main(void) {
     int numero_de_parada;
     printf("Digite o termo de parada da sequencia:");
@@ -15,7 +15,7 @@ int main(void) {
     return 0;
 }
 
-int cal_fib(int numero_de_parada){
+void cal_fib(int numero_de_parada){
     int i, fib1 = 1, fib2 = 1, soma;
     printf("1 ");
     for (i = 3; i <= numero_de_parada+1; i = i + 1) {
