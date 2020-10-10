@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 int cal_fib(int numero_de_parada);
-int main() {
+int main(void) {
     int numero_de_parada;
     printf("Digite o termo de parada da sequencia:");
     scanf("%d", &numero_de_parada);
